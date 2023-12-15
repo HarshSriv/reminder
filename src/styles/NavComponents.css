@@ -1,0 +1,11 @@
+ul{
+  list-style-type: none;
+}
+
+li{
+    display: inline;
+    justify-content: center;
+    padding: 12px;
+    margin: 24px;
+}
+

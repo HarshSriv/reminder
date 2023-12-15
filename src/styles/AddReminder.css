@@ -1,0 +1,83 @@
+.add-reminder{
+    width: 50%;
+    /* justify-content: center; */
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 12px;
+    height: auto;
+
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.reminder-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+label {
+    color: #0c25b2; /* Blue color for labels */
+    display: block;
+    margin-bottom: 8px;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+.add-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.button{
+    height: auto;
+    width: auto;
+    background-color: #689f38;
+    color: white;
+    transition-duration: 1s;
+    border: none;
+    border-radius: 12px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #33691e;
+}
+
+form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+      
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjusted box shadow */
+        width: 80%;
+        margin: 0 auto; /* Center the form horizontally */
+        margin-top: 50px; /* Adjust the top margin for vertical alignment */
+  }
+
+
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-size: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .radio-group {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+.Textfield{
+    width : 100%;
+    text-size-adjust: 100%;
+
+}

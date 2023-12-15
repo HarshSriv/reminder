@@ -1,0 +1,21 @@
+.navbar {
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: bolder;
+    background-color: #0b1580;
+    color: white;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    padding: 30px;
+}
+
+.logout{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 100px;
+}
+
+.logout:hover {
+    cursor: pointer;
+}
