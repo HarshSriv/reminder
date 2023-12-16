@@ -28,10 +28,10 @@
 }
 
 .delete {
-    padding: 15px;
+    padding: 10px;
     top: 5px;
     position: absolute;
-    right: 14px;
+    right: 10px;
     height: 50px;
     width: 50px;
 }
@@ -54,7 +54,7 @@
     background-color: blue;
     height: 35px;
     border-radius: 10px;
-    width: 60px;
+    width: 80px;
 }
 
 .delete:hover{
@@ -64,4 +64,8 @@
 .field{
     padding: 10px;
     font-size: x-large;
+}
+
+.combine{
+    display: inline;
 }

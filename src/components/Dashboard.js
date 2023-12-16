@@ -5,9 +5,11 @@ import '../styles/Dashboard.css'
 const Dashboard = () => {
     return(
         <>
-            <div className="card1"><AddReminder /></div>         
-            <div className="card1"><Reminders /></div>
-            <div className="card1"><Reminders /></div>          
+        
+            <div className="card2"><AddReminder />         
+            <Reminders /></div>
+        
+                  
             
        </>
        
